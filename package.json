@@ -1,0 +1,25 @@
+{
+  "name": "serverless-tts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "serverless.com",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "latest",
+    "@google-cloud/storage": "latest",
+    "@google-cloud/text-to-speech": "latest",
+    "async": "latest",
+    "audio-buffer-utils": "latest",
+    "chunk-text": "latest",
+    "dayjs-plugin-utc": "^0.1.2",
+    "fluent-ffmpeg": "latest",
+    "rimraf": "latest",
+    "serverless-google-cloudfunctions": "^4.6.0",
+    "uuid": "latest",
+    "uuid-to-hex": "latest"
+  }
+}
